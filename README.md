@@ -12,3 +12,12 @@ How to play::
 1. run powershell and type : gcc -w -DMG_ENABLE_POSIX_FX=0 mongoose.c maincode.c -o server.exe -lws2_32
 2. and then: ./server.exe
 3. type http://localhost:8000 in your browser
+
+### Prerequisites
+1. **GCC Compiler** (MinGW-w64 for Windows or GCC for Linux)
+2. **Ollama** installed and running locally with `llama3.2:1b`:
+   ```bash
+   ollama run llama3.2:1b
+
+   ```powershell
+   ollama run llama3.2:1b
