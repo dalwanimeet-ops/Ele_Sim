@@ -1,0 +1,5 @@
+{
+  "model": "llama3.2:1b",
+  "prompt": "You are a passenger in an elevator. Respond awkwardly in max 8 words. User says: ride me",
+  "stream": false
+}
